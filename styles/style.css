@@ -25,7 +25,6 @@
 }
 #header{
     padding: 16px 0px;
-    margin: 0 auto;
 }
 
 #header nav{
@@ -36,6 +35,7 @@
     max-width: 1360px;
     margin: 0  auto;
 }
+
 #header nav .logo-navbar img{
     max-width: 339xp;
     max-height: 60px;
@@ -58,3 +58,73 @@
     color: #000000;
     opacity: 90%;
 }
+
+#hero-section {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('../assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 116px 120px;
+    height: 674px;
+
+    align-items: center;
+}
+
+#hero-section .banner-container {
+    width: 97%;
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+
+}
+
+#hero-section .banner-container .status-badge {
+    color: #469165;
+    padding: 12px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 229px;
+}
+
+#hero-section .banner-container  .hero-title {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    opacity: 90%;
+}
+
+#hero-section .banner-container  .hero-title .text-green {
+    color: #30B868;
+}
+
+#hero-section .banner-container .hero-description {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #cbd5e0;
+
+}
+
+#hero-section .banner-container .btn-green {
+    background: #469165;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#hero-section .banner-container .btn-outline {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+/* Main Style End */
+
