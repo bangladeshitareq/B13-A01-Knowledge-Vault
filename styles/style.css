@@ -222,5 +222,75 @@
 
 .icon-wrapper.dark-red {
     background-color: #FEE2E2; }
-    
+
 /* --- features area End --- */
+
+/* Second Brain Section Styles */
+
+#second-brain {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+#second-brain .container {
+    width: 97%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+
+#second-brain .brain-flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+#second-brain .brain-left-image {
+    width: 50%;
+}
+
+#second-brain .brain-left-image img {
+    width: 100%;
+    display: block;
+}
+
+
+#second-brain .brain-right-text {
+    width: 50%;
+}
+
+#second-brain .sub-title {
+    color: #469165;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#second-brain .main-title {
+    font-size: 40px;
+    margin: 15px 0;
+    line-height: 1.2;
+}
+
+#second-brain .description {
+    color: #4b5563;
+    margin-bottom: 25px;
+}
+
+
+#second-brain .feature-list {
+    list-style: none;
+}
+
+#second-brain .feature-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+#second-brain .feature-list li i {
+    color: #30B868; 
+}
+ /* Second brain section end */
