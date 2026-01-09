@@ -220,30 +220,42 @@ body {
 
 #cta-section .cta-box {
     background-color: #F8F9F5;
-    padding: 80px 20px;
-    border-radius: 20px;
+    padding: 60px 20px;
+    border-radius: 16px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#cta-section .cta-box h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#cta-section .cta-box p {
+    font-size: 16px;
+    color: #4b5563;
+    max-width: 600px;
+}
+
+#cta-section .cta-action {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 #cta-section .small-text {
-    display: block;
-    margin-top: 15px;
     font-size: 14px;
     color: #6b7280;
 }
-/* --- cta section End --- */
-
+/* --- cta section end --- */
 /* --- footer area Start --- */
 #main-footer {
     background-color: #02121D;
     padding: 60px 0 30px;
     color: white;
-}
-
-#main-footer .container {
-    width: 97%;
-    max-width: 1360px;
-    margin: 0 auto;
 }
 
 #main-footer .footer-top {
@@ -254,34 +266,29 @@ body {
 }
 
 #main-footer .footer-logo img {
-    height: 50px;
+    height: 45px;
 }
 
 #main-footer .social-links {
     text-align: right;
 }
 
-#main-footer .social-links p {
-    margin-bottom: 10px;
-    font-weight: 600;
-}
-
 #main-footer .social-links .icons {
     display: flex;
     gap: 15px;
     justify-content: flex-end;
+    margin-top: 10px;
 }
 
-/* Social Icon Hover Effect */
 #main-footer .social-links a {
     color: white;
-    font-size: 20px;
-    transition: all 0.3s ease;
+    font-size: 18px;
+    transition: 0.3s;
 }
 
 #main-footer .social-links a:hover {
     color: #30B868;
-    transform: translateY(-3px); 
+    transform: translateY(-3px);
 }
 
 #main-footer hr {
@@ -292,7 +299,7 @@ body {
 
 #main-footer .copyright {
     text-align: center;
-    font-size: 14px;
-    opacity: 0.7;
+    font-size: 13px;
+    opacity: 0.6;
 }
 /* --- footer area End --- */
