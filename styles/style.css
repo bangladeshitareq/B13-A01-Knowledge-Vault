@@ -291,6 +291,34 @@
 }
 
 #second-brain .feature-list li i {
-    color: #30B868; 
+    color: #30B868;
 }
  /* Second brain section end */
+
+ /* --- CTA Section Styles Start --- */
+#cta-section {
+    padding: 80px 0;
+}
+#cta-section .container {
+    width: 97%;
+    max-width: 1360px;
+    margin: 0 auto;
+ }
+#cta-section .cta-content {
+    background-color: #F8F9F5;
+    padding: 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction:
+    column; align-items:
+    center;
+    text-align: center;
+}
+#cta-section .cta-content h2 {
+    font-size: 32px;
+    margin-bottom: 15px; }
+#cta-section .cta-content .cta-small {
+     margin-top: 15px;
+     font-size: 14px;
+     color: #6b7280; }
+/* --- CTA Section Styles End --- */
